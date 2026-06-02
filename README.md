@@ -73,9 +73,23 @@ else:
  
 ```
 # Output : 
+```
+X	P(X=x)	Obs.Freq	Exp.Freq	Chi^2
+--------------------------------------------------
+0	0.0213	       1	     0.43	   0.78
+1	0.0819	       2	     1.64	   0.08
+2	0.1577	       2	     3.15	   0.42
+3	0.2024	       5	     4.05	   0.22
+4	0.1948	       1	     3.90	   2.15
+5	0.1500	       5	     3.00	   1.33
+6	0.0962	       1	     1.92	   0.44
+7	0.0529	       3	     1.06	   3.56
+--------------------------------------------------
+Calculated Chi-square value: 8.9913  
+Critical Chi-square value (1% LOS, df=7): 18.4753  
+The data *fits* the Poisson distribution at 1% level of significance.
 
-<img width="696" height="378" alt="439853242-719abda5-d439-4586-9326-0e31182496c7" src="https://github.com/user-attachments/assets/5e260021-357c-47b7-ae6d-d837fd5ba2b9" />
-
+```
 
 # Results
 
